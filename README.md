@@ -10,6 +10,7 @@ A simple Pastebin-like application built with React, TypeScript, and a .NET mini
   - Python
   - Java
   - C++
+  - C#
 - Syntax highlighting using CodeMirror
 - File upload functionality
 - Basic user authentication
