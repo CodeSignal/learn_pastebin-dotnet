@@ -1,0 +1,12 @@
+services:
+  pastebin-backend:
+    build:
+      context: ./backend/PasteBinBackend
+      dockerfile: Dockerfile
+    container_name: pastebin-backend
+    ports:
+      - "3001:3001"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+    restart: unless-stopped
+
